@@ -2,6 +2,7 @@ public class _01_reverseArray {
   
   static void reverse(int a[], int n)
   {
+      //initial array
       int[] arr = new int[n];
       int j = n;
       for (int i = 0; i < n; i++) {
