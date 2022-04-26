@@ -9,10 +9,10 @@ public class _01_reverseArray {
           j = j - 1;
       }
 
-      // printing the reversed array
-      System.out.println("Reversed array is: \n");
-      for (int k = 0; k < n; k++) {
-          System.out.println(arr[k]);
+      //Reversing the array
+      System.out.println("Reversed_Array is: \n");
+      for (int i = 0; i < n; i++) {
+          System.out.println(arr[i]);
       }
   }
 
